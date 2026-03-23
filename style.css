@@ -274,8 +274,8 @@ section {
 
 .hero-image {
     flex-shrink: 0;
-    width: 240px;
-    height: 240px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     padding: 8px;
     background: var(--glass-bg);
@@ -303,10 +303,11 @@ section {
 }
 
 .hero-title {
-    font-size: clamp(3rem, 8vw, 5rem);
+    font-size: clamp(2.5rem, 5vw, 4rem);
     font-weight: 700;
     margin-bottom: 0.5rem;
     color: var(--text-primary);
+    white-space: nowrap;
 }
 
 .hero-subtitle {
@@ -743,8 +744,8 @@ section {
 
 @media (max-width: 768px) {
     .hero-image {
-        width: 180px;
-        height: 180px;
+        width: 160px;
+        height: 160px;
     }
 
     .nav-links {
