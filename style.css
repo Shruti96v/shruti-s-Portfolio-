@@ -519,6 +519,24 @@ section {
     color: var(--text-secondary);
 }
 
+.cert-link {
+    color: var(--text-primary);
+    text-decoration: none;
+    transition: var(--transition);
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.cert-link:hover {
+    color: var(--accent-1);
+    transform: translateX(3px);
+}
+
+.cert-link i {
+    font-size: 0.9em;
+}
+
 .achievements-list {
     display: flex;
     flex-direction: column;
